@@ -1,10 +1,10 @@
 <?php
 
-namespace Zefy\LaravelSSO\Middleware;
+namespace Pingserv\LaravelSSO\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use Zefy\LaravelSSO\LaravelSSOBroker;
+use Pingserv\LaravelSSO\LaravelSSOBroker;
 
 class SSOAutoLogin
 {

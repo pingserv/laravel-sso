@@ -1,6 +1,6 @@
 <?php
 
-namespace Zefy\LaravelSSO\Models;
+namespace Pingserv\LaravelSSO\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

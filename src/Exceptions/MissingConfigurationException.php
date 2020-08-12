@@ -1,6 +1,6 @@
 <?php
 
-namespace Zefy\LaravelSSO\Exceptions;
+namespace Pingserv\LaravelSSO\Exceptions;
 
 use Exception;
 

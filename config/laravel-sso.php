@@ -26,9 +26,9 @@ return [
     'usersModel' => \App\User::class,
     'authColumn' => 'email',
 
-    'brokersModel' => Zefy\LaravelSSO\Models\Broker::class,
+    'brokersModel' => Pingserv\LaravelSSO\Models\Broker::class,
 
-    // Table used in Zefy\LaravelSSO\Models\Broker model
+    // Table used in Pingserv\LaravelSSO\Models\Broker model
     'brokersTable' => 'brokers',
 
     // Logged in user fields sent to brokers.

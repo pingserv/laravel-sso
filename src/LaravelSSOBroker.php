@@ -1,10 +1,10 @@
 <?php
 
-namespace Zefy\LaravelSSO;
+namespace Pingserv\LaravelSSO;
 
 use Illuminate\Support\Facades\Cookie;
-use Zefy\LaravelSSO\Exceptions\MissingConfigurationException;
-use Zefy\SimpleSSO\SSOBroker;
+use Pingserv\LaravelSSO\Exceptions\MissingConfigurationException;
+use Pingserv\SimpleSSO\SSOBroker;
 use GuzzleHttp;
 
 /**
@@ -12,7 +12,7 @@ use GuzzleHttp;
  * First of all, you need to implement abstract functions in your own class.
  * Secondly, you should create a page which will be your SSO server.
  *
- * @package Zefy\SimpleSSO
+ * @package Pingserv\SimpleSSO
  */
 class LaravelSSOBroker extends SSOBroker
 {
