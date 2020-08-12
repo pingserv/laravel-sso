@@ -24,6 +24,8 @@ return [
      */
 
     'usersModel' => \App\User::class,
+    'authColumn' => 'email',
+
     'brokersModel' => Zefy\LaravelSSO\Models\Broker::class,
 
     // Table used in Zefy\LaravelSSO\Models\Broker model
